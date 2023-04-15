@@ -217,6 +217,22 @@ img {
 .features {
    padding: 120px 0;
 }
+.features-icon {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 264px;
+   height: 112px;
+   margin: 0 0 8px 0;
+
+   background: var(--light-color);
+   border-radius: 4px;
+}
+.features-icon .icon {
+   width: 64px;
+   height: 64px;
+   justify-content: center;
+}
 .features-head {
    font-weight: 500;
    font-size: 20px;
