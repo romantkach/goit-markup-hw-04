@@ -116,6 +116,7 @@ img {
 
 .nav .list {
    display: flex;
+   margin-left: 76px;
    gap: 40px;
 }
 
@@ -147,6 +148,10 @@ img {
    display: flex;
    gap: 40px;
 }
+.address-item:hover,
+.address-item:focus {
+   color: var(--pressed-state-cl);
+}
 /*
 |============================
 | hero section
@@ -154,8 +159,16 @@ img {
 */
 .hero {
    padding: 188px 0;
+   max-width: 1440px;
+   min-height: 600px;
+   margin: 0 auto;
    text-align: center;
    background-color: var(--dark-color);
+   background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+      url("../images/main/people-office.jpg");
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
 }
 .hero-title {
    font-family: "Roboto";
