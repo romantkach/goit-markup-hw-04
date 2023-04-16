@@ -376,7 +376,56 @@ img {
 | customer section
 |============================
 */
+.customers {
+   padding: 120px 0;
+   text-align: center;
+}
 
+.customers-title {
+   font-family: "Roboto";
+   font-style: normal;
+   font-weight: 700;
+   font-size: 36px;
+   line-height: 1.1;
+
+   margin-bottom: 72px;
+
+   letter-spacing: 0.02em;
+
+   color: var(--dark-color);
+}
+.customers-list {
+   display: flex;
+   gap: 24px;
+   justify-content: center;
+}
+
+.customers-list-item {
+   width: 168px;
+   height: 88px;
+}
+
+.customers-link {
+   color: var(--castomer-cl);
+
+   height: 100%;
+
+   border: 1px solid var(--border-cl);
+   border-radius: 4px;
+
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.customers-icon {
+   fill: currentColor;
+}
+
+.customers-link:hover,
+.customers-link:focus {
+   border-color: var(--pressed-state-cl);
+   color: var(--pressed-state-cl);
+}
 /*
 |============================
 | footer section
