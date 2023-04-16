@@ -371,55 +371,87 @@ img {
 .link-icon .icon {
    fill: var(--light-color);
 }
-/* footer */
+/*
+|============================
+| customer section
+|============================
+*/
+.customers {
+   padding: 120px 0;
+   text-align: center;
+}
 
-.footer {
-   padding: 100px 0;
-   background-color: var(--dark-color);
-}
-.footer-logo {
-   font-family: "Raleway", sans-serif;
+.customers-title {
+   font-family: "Roboto";
    font-style: normal;
-   font-weight: 800;
-   font-size: 18px;
-   line-height: 1.17;
-   color: var(--primary-barnd-color);
-   display: inline-block;
+   font-weight: 700;
+   font-size: 36px;
+   line-height: 1.1;
+   margin-bottom: 72px;
+   letter-spacing: 0.02em;
+   color: var(--dark-color);
+}
+.customers-list {
+   display: flex;
+   gap: 24px;
+   justify-content: center;
+}
+
+.customers-list-item {
+   width: 168px;
+   height: 88px;
+}
+
+.customers-link {
+   color: var(--castomer-cl);
+   height: 100%;
+   border: 1px solid var(--border-cl);
+   border-radius: 4px;
+   display: flex;
+   justify-content: center;
    align-items: center;
-   letter-spacing: 0.03em;
-   text-decoration: none;
-   text-transform: uppercase;
-   margin-bottom: 16px;
 }
-.footer-logo-item,
-.footer .text {
-   color: var(--light-color);
+.customers-icon {
+   fill: currentColor;
 }
-.footer .text {
-   width: 264px;
+
+.customers-link:hover,
+.customers-link:focus {
+   border-color: var(--pressed-state-cl);
+   color: var(--pressed-state-cl);
 }
-/* portfolio */
+
+/*
+|============================
+| footer section
+|============================
+*/
+
 .section-portfolio {
    padding: 96px 0 120px;
 }
+
+/* filter */
 .portfolio-btn {
    display: flex;
    flex-direction: row;
    justify-content: center;
    align-items: center;
    padding: 12px 24px;
+
    background: var(--light-color);
    color: var(--primary-barnd-color);
    border: 1px solid var(--heder-border-cl);
    border-radius: 4px;
    cursor: pointer;
-   font-weight: 500;
 }
+
 .portfolio-btn:hover,
 .portfolio-btn:focus {
    color: var(--background-color);
    background-color: var(--pressed-state-cl);
    border: 1px solid transparent;
+   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 .list.filter {
    display: flex;
@@ -428,32 +460,45 @@ img {
    margin-bottom: 72px;
 }
 
+/* product */
 .portfolio-title {
    margin-bottom: 8px;
    font-weight: 500;
    font-size: 20px;
    line-height: 1.2;
    letter-spacing: 0.02em;
+
    color: var(--dark-color);
 }
 .portfolio-text {
-   ffont-size: 16px;
+   font-size: 16px;
    line-height: 1.5;
    letter-spacing: 0.02em;
    color: var(--dark-color);
    margin-bottom: 8px;
 }
+/* Cards */
+
 .list.cards {
    display: flex;
    flex-wrap: wrap;
    column-gap: 24px;
    row-gap: 48px;
 }
-
 .card {
-   width: calc(100%-24px) / 3;
+   width: 360px;
+
    background: #ffffff;
 }
+.card .link {
+   display: block;
+}
+.card .link:hover,
+.card .link:focus {
+   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16),
+      0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
 .card-categories {
    padding: 32px 16px;
    border: 1px solid #e7e9fc;
