@@ -406,7 +406,7 @@ img {
 }
 
 .customers-link {
-   color: var(--border-cl);
+   color: var(--customer-cl);
 
    height: 100%;
 
