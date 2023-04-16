@@ -406,11 +406,11 @@ img {
 }
 
 .customers-link {
-   color: var(--customer-cl);
+   color: var(--border-cl);
 
    height: 100%;
 
-   border: 1px solid var(--border-cl) important;
+   border: 1px solid var(--border-cl);
    border-radius: 4px;
 
    display: flex;
