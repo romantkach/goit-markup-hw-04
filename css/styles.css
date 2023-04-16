@@ -8,7 +8,7 @@
    --heder-border-cl: #e7e9fc;
    --social-activ-cl: #31d0aa;
    --border-cl: #8e8f99;
-   --castomer-cl: #afb1b8;
+   --customer-cl: #afb1b8;
 }
 html {
    box-sizing: border-box;
@@ -406,11 +406,11 @@ img {
 }
 
 .customers-link {
-   color: var(--castomer-cl);
+   color: var(--customer-cl);
 
    height: 100%;
 
-   border: 1px solid var(--border-cl);
+   border: 1px solid #8e8f99;
    border-radius: 4px;
 
    display: flex;
