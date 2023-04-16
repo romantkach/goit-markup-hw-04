@@ -408,11 +408,6 @@ img {
 .customers-link {
    color: var(--customer-cl);
 
-   font-weight: 500;
-   font-size: 16px;
-   line-height: 1.5;
-   letter-spacing: 0.02em;
-
    height: 100%;
 
    border: 1px solid var(--border-cl) important;
