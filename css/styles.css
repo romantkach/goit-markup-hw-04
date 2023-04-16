@@ -440,6 +440,88 @@ img {
 |============================
 */
 
+.footer {
+   padding: 100px 0;
+
+   background-color: var(--dark-color);
+}
+.footer .container {
+   display: flex;
+   align-items: baseline;
+   gap: 120px;
+}
+.footer-logo {
+   display: inline-block;
+   align-items: center;
+   letter-spacing: 0.03em;
+   text-decoration: none;
+   text-transform: uppercase;
+   margin-bottom: 16px;
+
+   font-family: "Raleway", sans-serif;
+   font-style: normal;
+   font-weight: 800;
+   font-size: 18px;
+   line-height: 1.17;
+
+   color: var(--primary-barnd-color);
+}
+.footer-logo-item,
+.footer .text {
+   color: var(--light-color);
+}
+
+.footer .text {
+   width: 264px;
+}
+
+.footer-social-title {
+   font-family: "Roboto";
+   font-style: normal;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 1.5;
+   /* identical to box height, or 150% */
+
+   letter-spacing: 0.02em;
+
+   margin-bottom: 16px;
+
+   /* WHITE */
+
+   color: var(--background-color);
+}
+.footer-list {
+   display: flex;
+   gap: 16px;
+}
+.footer-list-item {
+   width: 40px;
+   height: 40px;
+}
+.footer-social-link {
+   display: flex;
+   width: 100%;
+   height: 100%;
+   border-radius: 50%;
+   background-color: var(--primary-barnd-color);
+   align-items: center;
+   justify-content: center;
+   background-size: cover;
+}
+.footer-social-link:hover,
+.footer-social-link:focus {
+   background-color: var(--social-activ-cl);
+}
+.footer .icon {
+   fill: var(--light-color);
+}
+
+/*
+   |============================
+   | portfolio page
+   |============================
+ */
 .section-portfolio {
    padding: 96px 0 120px;
 }
