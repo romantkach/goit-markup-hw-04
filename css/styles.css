@@ -432,7 +432,7 @@ img {
    align-items: center;
 }
 .customers-icon {
-   fill: var(--border-cl);
+   fill: currentColor;
 }
 
 .customers-link:hover,
