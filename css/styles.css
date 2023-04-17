@@ -413,7 +413,7 @@ img {
 }
 
 .customers-link {
-   color: var(--customer-cl);
+   color: var(--border-cl);
 
    text-decoration: none;
 
